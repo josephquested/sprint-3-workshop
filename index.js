@@ -1,28 +1,39 @@
+// DATA TYPES //
+
 name = "JO$EPH"                // string
 age = 25                       // int
-cool = true                    // bool
+isCool = true                  // bool
 children = ["addie", "dexter"] // array
+
+// BUILDING AN OBJECT //
 
 joseph = {
   name: name,
   age: age,
-  cool: cool,
+  isCool: isCool,
   children: children
 }
 
+// INTRO TO FUNCTIONS AND VARIABLES //
+
+function printName(person) {
+    console.log(person.name)
+}
+
+function returnAge(person) {
+  return person.age
+}
+
+// FLOW CONTROL IN FUNCTIONS //
+
+function decideIfPersonIsCool(person) {
+  if (person.cool) {
+    console.log(person.name + " is cool")
+  } else {
+    console.log(person.name + " is not cool")
+  }
+}
+
+// INIT //
+
 console.log("welcome to sprint 3!")
-
-console.log(name)
-console.log(joseph.name)
-
-function printAddition(number1, number2) {
-    console.log(number1 + number2)
-}
-
-function add(number1, number2) {
-  return number1 + number2
-}
-
-printAddition(2, 3)
-
-console.log(add(5, 5))

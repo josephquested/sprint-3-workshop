@@ -1,7 +1,11 @@
 body {
   background-color: Bisque;
   text-align: center;
-  font-family: 'Black Han Sans', sans-serif;
+}
+
+li {
+  text-align: left;
+  font-size: 18pt;
 }
 
 h1 {
@@ -10,6 +14,16 @@ h1 {
 }
 
 h2 {
+  margin-top: 5px;
+  font-size: 25pt;
+}
+
+h3 {
+  margin-top: 5px;
+  font-size: 20pt;
+}
+
+h4 {
   margin-top: 5px;
   font-size: 20pt;
 }
